@@ -4,19 +4,12 @@
 (live-add-pack-lib "mk-project")
 (require 'mk-project)
 
-(live-add-pack-lib "rinari")
-(require 'rinari)
-
-(live-add-pack-lib "midje-mode")
-(require 'midje-mode)
-
 (live-load-config-file "util-fns.el")
 (live-load-config-file "look-and-feel.el")
 (live-load-config-file "shell.el")
 (live-load-config-file "personal.el")
 (live-load-config-file "erc-conf.el")
 (live-load-config-file "org-mode-conf.el")
-(live-load-config-file "deft-conf.el")
 (live-load-config-file "spelling.el")
 (live-load-config-file "find-file-in-project.el")
 (live-load-config-file "bindings.el")
