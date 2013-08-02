@@ -1,0 +1,9 @@
+[submodule "vendor/submodules/rinari"]
+	path = vendor/submodules/rinari
+	url = https://github.com/eschulte/rinari.git
+[submodule "vendor/submodules/mk-project"]
+	path = vendor/submodules/mk-project
+	url = https://github.com/mattkeller/mk-project.git
+[submodule "vendor/submodules/midje-mode"]
+	path = vendor/submodules/midje-mode
+	url = https://github.com/dnaumov/midje-mode.git
