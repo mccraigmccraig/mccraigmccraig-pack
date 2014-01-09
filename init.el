@@ -1,8 +1,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; mccraigmccraig's Personal Live Pack
 
-(live-add-pack-lib "mk-project")
-(require 'mk-project)
+;;(live-add-pack-lib "mk-project")
+;;(require 'mk-project)
 
 (live-load-config-file "util-fns.el")
 (live-load-config-file "look-and-feel.el")
@@ -11,9 +11,16 @@
 (live-load-config-file "erc-conf.el")
 (live-load-config-file "org-mode-conf.el")
 (live-load-config-file "spelling.el")
-(live-load-config-file "find-file-in-project.el")
 (live-load-config-file "bindings.el")
 (live-load-config-file "java-style.el")
+
+(live-load-config-file "compojure.el")
+
+;; (require 'clj-refactor)
+;; (add-hook 'clojure-mode-hook (lambda ()
+;;                                (clj-refactor-mode 1)
+;;                                (cljr-add-keybindings-with-prefix "C-c C-m")
+;;                                ))
 
 ;; configure elpa packages
 (require 'warnings)
@@ -38,3 +45,5 @@
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+
+(projectile-global-mode)

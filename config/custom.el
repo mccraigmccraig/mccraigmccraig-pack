@@ -9,6 +9,8 @@
  '(erc-email-userid "mccraig@mccraig.net")
  '(exec-path (quote ("/Users/mccraig/.rbenv/shims" "/Applications/SuperCollider" "/usr/local/bin" "/opt/local/sbin" "/opt/local/bin" "/usr/local/bin" "/usr/bin" "/bin" "/usr/sbin" "/sbin" "/Users/mccraig/Applications/Emacs.app/Contents/MacOS/bin" "/Users/mccraig/bin")))
  '(js-indent-level 2)
+ '(nrepl-popup-stacktraces-in-repl t)
+ '(nrepl-port "")
  '(ns-antialias-text t)
  '(rspec-spec-command "/Users/mccraig/.rbenv/shims/rspec")
  '(rspec-use-bundler-when-possible nil)
@@ -19,13 +21,13 @@
  '(sclang-runtime-directory "~/.sclang/")
  '(tab-width 2)
  '(term-default-bg-color "#000000")
- '(term-default-fg-color "#dddd00"))
+ '(term-default-fg-color "#dddd00")
+ '(whitespace-style (quote (space-mark tab-mark newline-mark))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#EDEDED" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "blah" :family "consolas"))))
  '(diff-added ((t (:foreground "Green"))))
  '(diff-removed ((t (:foreground "Red"))))
  '(ediff-even-diff-A ((((class color) (background dark)) (:background "dark green"))))

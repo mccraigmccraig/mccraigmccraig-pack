@@ -35,18 +35,3 @@
 (global-set-key (kbd "C-.") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c C-,") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c C-.") 'mc/edit-lines)
-
-;; Find file in project, with specific patterns
-(global-set-key (kbd "C-c p f") 'find-file-in-project)
-(global-set-key (kbd "C-c p C-f cl")
-                (ffip-create-pattern-file-finder "*.clj"))
-(global-set-key (kbd "C-c p C-f co")
-                (ffip-create-pattern-file-finder "*.coffee"))
-(global-set-key (kbd "C-c p C-f rb")
-                (ffip-create-pattern-file-finder "*.rb"))
-(global-set-key (kbd "C-c p C-f ja")
-                (ffip-create-pattern-file-finder "*.java"))
-(global-set-key (kbd "C-c p C-f js")
-                (ffip-create-pattern-file-finder "*.js"))
-(global-set-key (kbd "C-c p C-f jp")
-                (ffip-create-pattern-file-finder "*.jsp"))
